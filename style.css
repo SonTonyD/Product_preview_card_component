@@ -115,6 +115,18 @@ body {
     font-size: 1.13vw;
 }
 
+.button:hover {
+    background-color: #2f6451;
+    cursor: pointer;
+}
+
+.svg-desktop {
+}
+
+.svg-mobile {
+    display: none;
+}
+
 .logo-content  {
     display: inline;
 }
@@ -188,5 +200,13 @@ body {
         display: inline-block;
         font-size: 5.5vw;
     }
+    .svg-desktop {display: none}
+    .svg-mobile {display: inline;}
     
 }
+
+
+
+
+.attribution { font-size: 0.733vw; text-align: center; padding-top: 5vw;}
+.attribution a { color: hsl(228, 45%, 44%); }
